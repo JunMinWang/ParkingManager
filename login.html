@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>會員登入</title>
+<link rel="stylesheet" type="text/css" href="css/login.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<script>
+  function refresh_code(){ 
+    document.getElementById('imgcode').src='captcha.php'; 
+  }
+</script>
+<body>
+  <div style="height:60px"></div>
+  <div>
+    <img src="img/title.png" style="display:block; margin:auto;"/ >
+  </div>
+  <div style="height:60px"></div>
+  
+  <form class="form-container" method="POST" action="login.php" style="display:block; margin:auto;">
+    <div class="form-title">
+      <h2>管理者登入</h2>
+    </div>
+    <div class="form-title">
+      帳號
+    </div>
+    <input class="form-field" type="text" name="acc" placeholder="請在此輸入帳號" /><br />
+    <div class="form-title">
+      密碼
+    </div>
+    <input class="form-field" type="password" name="pwd" placeholder="請在此輸入密碼" /><br />
+    <img id="imgcode" src="captcha.php" onclick="refresh_code()" />
+    <font color="white">
+      點擊圖片更換驗證碼
+    </font>
+    <input type="text" name="checkword" size="12" maxlength="10" placeholder="輸入驗證碼"/>
+    <div class="submit-container">
+      <input class="submit-button" colspan="2" type="submit" value="登入" />
+      <input class="submit-button" colspan="2" type="reset" value="重填" />
+    </div>
+    </form>
+  </body>
+</html>
+
+
+

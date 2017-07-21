@@ -1,0 +1,112 @@
+/*HTML ELEMENT AREA*/
+body{
+	margin: 0px;	
+}
+
+ul{	
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.drop-down-menu{ /*整列*/
+	display: inline-block;
+	font-family:Microsoft JhengHei;
+	font-size: 14pt;
+	width: 100%;
+	height: 40px;
+}
+
+ul.drop-down-menu li{ /*所有li*/
+	position: relative;
+	white-space: nowrap;
+	width: 100%;
+	text-align:center;
+}
+
+ul.drop-down-menu > li:last-child{ /*最後一個子選單*/
+	border-right: none;
+}
+
+ul.drop-down-menu > li { /*主要分類*/
+	float: right;
+	width: 19.5%; /*待確定*/
+}
+
+ul.drop-down-menu a{ /*所有a*/
+	background-color:#2585B6;
+	color: #fff;
+	display: block;
+	padding: 0 30px;
+	text-decoration: none;
+	line-height: 40px;
+}
+
+ul.drop-down-menu a:hover { 
+    background-color:#ACD6FF;
+    color: #fff;
+}
+
+ul.drop-down-menu li:hover > a { 
+    background-color:#ACD6FF;
+    color: #fff;
+}
+
+ul.drop-down-menu ul {
+    position: absolute;
+    z-index: 99;
+    left: -1px;
+    top: 100%;
+	width: 100%;
+}
+
+ul.drop-down-menu ul li {
+	border-bottom: #fff 1px solid;
+}
+
+ul.drop-down-menu ul li:last-child {
+    border-bottom: none;
+}
+
+ul.drop-down-menu ul {
+    display: none;
+}
+
+ul.drop-down-menu li:hover > ul {
+    display: block;
+}
+
+
+/*DIV AREA*/
+
+#dv_header{
+	width: 300px;
+	height: 100px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top:-387px;
+	margin-left:-635px;
+}
+
+#dv_Top{
+	width: 100%;
+	height: 70px;
+}
+
+#dv_Banner{
+	width: 100%;
+	height: 45px;
+}
+
+/*FONT AREA*/
+title1{
+	font-size: 35pt;
+	font-family: Times New Roman;
+	color:#fff;
+}
+title2{
+	font-size: 35pt;
+	font-family: DFKai-sb;
+	color:#2585B6;
+}

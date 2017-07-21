@@ -1,0 +1,86 @@
+﻿
+
+
+#dv_content{
+	float: left;
+	width: 40%;
+	border: #666 1px solid;
+}
+
+/*HTML ELEMENT AREA*/
+body{
+	margin: 0px;
+background:#000000;	
+}
+
+a{
+	text-decoration:none;
+	color: #46A3FF;
+}
+
+a:hover{
+	text-decoration:underline;
+	color: #00F;
+	font-weight: bolder;
+}
+
+#dv_Content{
+	border: #2585B6 1px solid;
+	width: 80%;
+	margin-top: 50px;
+	margin-left: 10%;
+}
+
+table.tb1{ /*橫式標題 修改欄位*/
+	width: 100%;
+	border: #ccc 1px solid;
+	line-height: 30px;
+}
+
+table.tb1 th{
+	font-family: Sans-serifs;
+	background-color: #000000;
+	color:#fff;
+	border-left: #CCC 1px dashed;
+	border-bottom: #CCC 2px solid
+}
+
+table.tb1 td{
+	text-align: center;
+	border-bottom: #CCC 1px solid;
+	border-left: #CCC 1px dashed;
+	color:#fff;
+}
+
+table.tb2{ /*直式標題 修改欄位*/
+	width: 60%;
+}
+
+table.tb2 tr{
+	height: 20px;
+}
+
+table.tb2 th{
+	text-align: center;
+	font-family: Sans-serifs;
+	color:#fff;
+}
+
+table.tb2 td.bd0{
+	border: 1px solid #00F;
+	margin: 0px;
+	padding: 0px;
+}
+
+table.tb2 tr.hide{
+	display: none;	
+}
+
+input.bd0{
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}
+
+fw{color: #FFF}
+

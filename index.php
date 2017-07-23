@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<title>首頁</title>
+<title>首頁 GitTest2</title>
 <script language="javascript" src='general.js'></script>
 </head>
 <body>

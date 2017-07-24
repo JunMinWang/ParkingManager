@@ -1,7 +1,7 @@
 <?php
   $dbhost = '127.0.0.1';
-  $dbuser = 'user01';
-  $dbpwd = 'z2263266';
+  $dbuser = '';
+  $dbpwd = '';
   $dbname = 'parkingmanager';
   try{
     $conn = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpwd);
